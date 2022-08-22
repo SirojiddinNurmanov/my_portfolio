@@ -86,7 +86,7 @@ const Card = ({
           }}
         >
           <Typography
-            variant="a"
+            variant="h5"
             className={classes.title}
             component={motion.h5}
             layoutId={`title-${id}`}
