@@ -53,6 +53,7 @@ const ExtendedCard = ({
                 className="p-link"
                 href={webURL}
                 style={{ "text-decoration": "none" }}
+                rel="noreferrer"
               >
                 <Typography
                   variant="h5"

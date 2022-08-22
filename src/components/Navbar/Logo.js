@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core";
 import { Link } from "react-scroll";
 
 const Logo = ({ setHomeIsActive }) => {
-  const classes = useStyles();
   return (
     <Link
       spy
