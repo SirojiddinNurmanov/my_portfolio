@@ -40,7 +40,7 @@ const ProjectsGallery = () => {
     loadProjects();
   }, []);
 
-  console.log('loadedProjects after pageNo: ', pageNo,' pageSize: ', pageSize);
+  console.log("loadedProjects after pageNo: ", pageNo, " pageSize: ", pageSize);
   console.log(loadedProjects);
   return (
     <>
@@ -79,6 +79,7 @@ const ProjectsGallery = () => {
               backgroundImage={getSelected(selectedId).backgroundImage}
               frontImage={getSelected(selectedId).frontImage}
               technologies={getSelected(selectedId).technologies}
+              webURL={getSelected(selectedId).webURL}
               handleClose={() => setSelectedId(null)}
             />
           )}
